@@ -1,0 +1,43 @@
+nav{
+  height: 10vh;
+  background-color: rgb(84, 84, 216);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navlink{
+  margin: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+.navlink:hover{
+  color: orange;
+}
+section{
+  display: grid;
+  gap: 1rem;
+}
+article{
+  background-color: rgb(71, 87, 47);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+@media screen and (min-width:600px) {
+  section{
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (min-width:992px) {
+  section{
+    grid-template-columns: auto auto auto;
+  }
+}
+.para{
+  text-align: justify;
+}
+.link{
+  color: #000;
+}
